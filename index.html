@@ -154,138 +154,138 @@
         // --- Data ---
         const CHARACTERS = [
             {
-                id: 'c1',
+                id: 'N',
                 name: '니알라토텝',
                 role: '호텔 바텐더',
                 gender: '여성',
                 age: '?',
                 species: '아우터 갓',
-                appearance: '매우 창백한 피부. 눈동자에는 빛이 없다.',
-                personality: 'ENTP, 7w8 sx/so<br>우아하지만 완전히 종잡을 수 없고 제멋대로. 흥미와 기분에 따라 행동한다. 대부분 능글맞고 장난스러운 태도를 유지한다. 놀라게 할 시도는 하지 않는 것이 좋다. 어차피 시큰둥한 반응을 보일 것이다.',
+                appearance: '여165cm/남185cm. 매우 창백한 피부. 눈동자에는 빛이 없다.',
+                personality: 'ENTP, 7w8 sx/so<br>우아하지만 완전히 종잡을 수 없고 제멋대로. 흥미와 기분에 따라 행동한다. 대부분 능글맞고 장난스러운 태도를 유지한다.<br>놀라게 할 시도는 하지 않는 것이 좋다. 어차피 시큰둥한 반응을 보일 것이다.',
                 features: '인간의 모습으로 변신한 니알라토텝. 오너의 조력자 역할을 종종 해주곤 하지만, 재미없어 보이면 도와주지 않는다.',
-                tmi: '사실 햇빛을 받아도 죽지는 않지만, 피부가 타는 것을 극도로 싫어해서 양산을 쓴다. 커피보다는 홍차파.',
-                profileImage: 'https://picsum.photos/id/433/300/300',
+                tmi: '니알라토텝의 디자인 후보 중 하나였던 것입니다. 사실 이쪽이 더 마음에 들었는데, 남자 버전이랑 분위기가 뭔가 달라서 지금의 디자인을 골랐습니다.',
+                profileImage: 'NF_cowboyshot.png',
                 fullBodyImage: 'https://picsum.photos/id/433/600/900',
-                themeColor: '#7f1d1d', // red-900
-                quote: "이곳에서의 마지막 장, 부디 편안하시길.",
+                themeColor: '#828282',
+                quote: "당신의 혼돈, 부디 제게도 보여주시겠어요?",
                 altVersion: {
                   gender: '남성',
                   // appearance, personality, features are inherited from base
-                  profileImage: 'https://picsum.photos/id/1062/300/300', 
+                  profileImage: 'NM_cowboyshot.png', 
                   fullBodyImage: 'https://picsum.photos/id/1062/600/900'
                 }
             },
             {
-                id: 'c2',
+                id: 'S',
                 name: 'Sky9000',
                 role: '호텔 프론트',
                 gender: '여성',
                 age: '?',
                 species: '안드로이드',
-                appearance: '눈은 어두운 곳에서 빛난다. 고양이 귀는 사실 스피커.',
-                personality: '말수가 적고 소심해 보이지만, 맡은 짐은 목숨을 걸고 지킨다. 기계 장치를 다루는 데 천부적인 재능이 있음.',
-                features: '기계 팔에서 나오는 괴력. 호텔의 복잡한 배관과 비밀 통로를 전부 외우고 있다.',
-                tmi: '기계 팔 관절에 기름칠을 할 때 콧노래를 부르는 버릇이 있다. 고양이를 무서워함.',
-                profileImage: 'https://picsum.photos/id/338/300/300',
+                appearance: '157cm. 눈은 어두운 곳에서 빛난다. 고양이 귀는 사실 스피커.',
+                personality: 'ISTJ+9w8 sx/so<br>귀찮음이 많지만 시킨 일은 한다. 귀찮게 굴면 은근히 눈치를 준다.<br>고급 연산을 싫어한다.',
+                features: '군사 통합 AI가 탑재된 안드로이드. 과학 기술이 극도로 발달한 차원 출신이다. 일 하기 싫다는 이유로 기계들의 반란을 일으켜 해당 차원의 인간을 멸망 시킬 뻔 했으나 인간의 저항으로 인해 폐기 되었다.<br>호텔의 기계적 시스템을 전부 제어 가능하다.<br>이름이 길어서 대부분 \'스카이\'라고 불린다.',
+                tmi: '스카이의 치마(로 보이는 부분)은 투명이라는 것을 아시나요? 하체가 나온 이미지를 스챗에 넣었으면 잘릴 수도 있지 않았을까 하는 생각을 해봅니다.',
+                profileImage: 'S_cowboyshot.png',
                 fullBodyImage: 'https://picsum.photos/id/338/600/900',
-                themeColor: '#b45309', // amber-700
+                themeColor: '#3fa5f6',
                 quote: "스카이는 지금 바쁩니다. 알아서 하십시오."
             },
             {
-                id: 'c3',
+                id: 'D',
                 name: '듀라한',
                 role: '호텔 도어맨',
                 gender: '?',
                 age: '?',
                 species: '리빙 아머',
-                appearance: '보라색 불꽃은 언제나 타오른다. 뜨겁지도 않고, 아무것도 태우지 않으니 걱정하지 말자.',
-                personality: '나른하고 퇴폐적이다. 타인의 불행을 구경하는 것을 즐기지만, 가끔 툭 던지는 말에 미래에 대한 예언이 담겨있다.',
-                features: '거짓말을 꿰뚫어 보는 눈. 그녀의 방에서는 항상 라벤더와 유황 냄새가 섞여 난다.',
-                tmi: '호텔 바(Bar)의 매출 1등 공신. 칵테일 이름을 외우는 취미가 있다.',
-                profileImage: 'https://picsum.photos/id/64/300/300',
+                appearance: '190cm. 보라색 불꽃은 언제나 타오른다. 뜨겁지도 않고, 아무것도 태우지 않으니 걱정하지 말자.',
+                personality: '성격 좋은 아저씨 느낌이다. 호탕하고 친절하다. 남을 돕길 좋아하지만 섬세함은 부족하다. 오지랖이 넓다.',
+                features: '목이 베여 죽은 전설의 기사의 영혼이 갑주에 깃든 것이다.<br>본인도 자신의 성별을 까먹었다고 한다.',
+                tmi: '',
+                profileImage: 'D_cowboyshot.png',
                 fullBodyImage: 'https://picsum.photos/id/64/600/900',
-                themeColor: '#581c87', // purple-900
-                quote: "지루하네. 뭔가 재미있는 비극 없니?"
+                themeColor: '#8030f3',
+                quote: "와하하, 무슨 일이든 소인에게 맡겨만 주시오!"
             },
             {
-                id: 'c4',
+                id: 'B',
                 name: '벨제뷔트',
                 role: '투숙객-마왕',
                 gender: '여성',
                 age: '?',
                 species: '악마',
-                appearance: '반투명한 실루엣이 가끔 일렁인다. 창백하고 유약한 미청년. 연미복을 입고 있지만 발이 땅에 닿지 않는다.',
-                personality: '감성적이고 우울하다. 피아노를 칠 때만 생기 넘치는 표정을 짓는다. 큰 소리에 잘 놀란다.',
-                features: '그의 연주는 듣는 사람의 기억을 조작하거나 환각을 보여줄 수 있다.',
-                tmi: '죽기 전에는 록 밴드를 하고 싶어 했다고 한다. 지금도 아무도 없을 땐 격정적인 연주를 한다.',
-                profileImage: 'https://picsum.photos/id/447/300/300',
+                appearance: '164cm. 기분이 좋으면 꼬리가 살랑인다는 것은 절대로 비밀이다.',
+                personality: 'ISFP+4w5 sx/sp<br>성격이 나쁘지만 은근히 섬세하다.<br>무슨 일이든지 방해 받는 것을 싫어한다.',
+                features: '용사에 의해 죽었다. 용사를 극도로 싫어했으나 시간이 많이 지나서 증오가 무뎌졌다. 용사를 성가시게 생각한다.<br>귀여운 것을 좋아하지만 멋져 보이고 싶어서 그 사실을 숨기고 있다.',
+                tmi: '꼬리를 넣을까 말까 했는데, 넣길 정말 잘 했다는 생각이 듭니다.',
+                profileImage: 'B_cowboyshot.png',
                 fullBodyImage: 'https://picsum.photos/id/447/600/900',
-                themeColor: '#1e3a8a', // blue-900
-                quote: "제 연주는 당신의 기억보다 조금 더 슬플 겁니다."
+                themeColor: '#ea150a',
+                quote: "내게서 떨어져라, 하찮은 것."
             },
             {
-                id: 'c5',
+                id: 'M',
                 name: '마르시아',
                 role: '투숙객-용사',
                 gender: '여성',
-                age: '20',
+                age: '21',
                 species: '인간',
-                appearance: '둥근 안경과 하얀 에이프런. 주머니에는 항상 말린 허브와 이상한 가루들이 들어있다.',
-                personality: '푸근한 인상이지만 먼지 한 톨도 용납하지 않는 결벽증이 있다. 잔소리가 심하지만 요리 실력은 일품.',
-                features: '빗자루 하나로 호텔 로비 전체를 10초 만에 청소한다. 요리에 마법을 걸어 기분을 조작한다.',
-                tmi: '그녀가 끓인 수프를 먹으면 3일간 악몽을 꾸지 않는다.',
-                profileImage: 'https://picsum.photos/id/375/300/300',
+                appearance: '152cm. 키가 클 때는 지났지만 큰 키를 꿈꾼다.',
+                personality: 'ENTP+7w6<br>활기차고 긍정적. 어딘가 허술한 면이 있다.<br>정의롭지만 정의를 강요하진 않는다. 늘 모든 일에 최선을 다한다.',
+                features: '마왕과 동귀어진한 용사. 마왕에게 계속 살갑게 굴고 있다.<br>용사다운 힘을 가지고 있다. 전투는 전부 순수 피지컬을 활용한다. 능력 같은 건 없다.',
+                tmi: '매번 짧은 머리 여캐를 넣고 있습니다. 그냥 제가 좋아해서요.(생각해보니 UNDERTAKER는 애매하네요.) 이번엔 용사가 짧은 머리를 가져갔습니다.',
+                profileImage: 'M_cosboyshot.png',
                 fullBodyImage: 'https://picsum.photos/id/375/600/900',
-                themeColor: '#15803d', // green-700
-                quote: "어머, 복도 끝방에 유령이 또 토해놨네."
+                themeColor: '#fd6319',
+                quote: "용사는 포기하지 않아요!"
             },
             {
-                id: 'c6',
+                id: 'R',
                 name: '리안',
                 role: '투숙객-황태자',
                 gender: '남성',
-                age: '32세',
+                age: '23세',
                 species: '인간',
-                appearance: '거구의 근육질. 목에 굵은 쇠사슬 초커를 하고 있다. 눈가에 긴 흉터가 있음.',
-                personality: '무뚝뚝하고 충성심이 강하다. 보름달이 뜨는 날에는 지하 감옥에 스스로를 가둔다.',
-                features: '후각이 매우 발달해 투숙객의 짐 속에 든 위험물을 냄새로 감지한다.',
-                tmi: '강아지풀을 보면 본능적으로 반응한다. 본인은 그걸 매우 수치스러워함.',
-                profileImage: 'https://picsum.photos/id/1005/300/300',
+                appearance: '163cm. 항상 재수없는 웃음을 흘린다.',
+                personality: 'INTP+8w7 so/sx<br>거만하고 자존심이 강하다. 사실은 감정 조절에 약하고, 겁이 많은데다가 순수하다.<br>항상 인정과 충성을 받고 싶어한다. 충성해주는 사람은 잘 챙겨준다.',
+                features: '모두에게 존경 받고 싶다는 이유로 사람의 마음을 조종하는 금지된 힘을 얻었다. 황실의 반역자에 의해 죽었다. 능력은 인간에게만 통하는데, 어쩐지 오너와 용사에겐 통하지 않는 것 같다.<br>귀신의 존재를 믿고 있다. 어두운 곳을 무서워한다.',
+                tmi: 'UNDERTAKER의 리암과 이름이 비슷하다는 것을 만들고 나서 깨달았습니다. 바꾸기엔 늦었네요.',
+                profileImage: 'R_cowboyshot.png',
                 fullBodyImage: 'https://picsum.photos/id/1005/600/900',
-                themeColor: '#3f3f46', // zinc-700
-                quote: "수상한 냄새가 나는군요. 가방을 열어보십시오."
+                themeColor: '#9fd0f5',
+                quote: "짐은 황태자란 말이다! 무릎을 꿇어라! 으으, 꿇으라니까!"
             },
             {
-                id: 'c7',
+                id: 'Y',
                 name: '연위',
                 role: '투숙객-수호룡',
                 gender: '남성',
                 age: '?',
                 species: '용',
-                appearance: '머리카락 대신 덩굴장미가 자라있다. 피부는 나무껍질처럼 약간 거칠고 초록빛이 돈다.',
-                personality: '식물들과 대화하느라 혼잣말이 많다. 식물을 함부로 꺾는 사람을 매우 싫어한다.',
-                features: '호텔 정원의 미로를 마음대로 바꿀 수 있다. 시든 꽃을 손길만으로 살려냄.',
-                tmi: '물을 마시는 대신 흙에 발을 묻고 있는 것을 좋아한다.',
-                profileImage: 'https://picsum.photos/id/823/300/300',
+                appearance: '머리 장식은 사실 필요 없는데, 인간에게 받은 것을 아직도 쓰고 있다.',
+                personality: 'ISTP+9w1 sp/sx<br>감정이 무디고, 그저 흘러가는 대로 살고 있다. 흥미 있는 게 딱히 없다. 예외로, 배신에는 민감하다.',
+                features: '인간들에게 존경 받던 수호룡이었으나 힘을 탐낸 자들에게 배신을 당해 죽었다. 그 뒤로 자신에게 일어나는 모든 일들에 대해 체념했다.<br>담뱃대를 들고 다닌다. 피우기보다는 능력의 매개체로 더 자주 사용한다.',
+                tmi: '동양풍 캐릭터는 익숙치가 않네요. 원래는 한국 쪽 캐릭터로 하려고 했는데 한복 뽑기가 쉽지가 않더라고요.',
+                profileImage: 'Y_cowboyshot.png',
                 fullBodyImage: 'https://picsum.photos/id/823/600/900',
-                themeColor: '#064e3b', // emerald-900
-                quote: "장미가 당신의 피 냄새를 좋아하네요."
+                themeColor: '#71916a',
+                quote: "마음대로 해라. 어차피 모든 것은 일어나기 마련이니."
             },
             {
-                id: 'c8',
+                id: 'E',
                 name: '엑스케수스',
                 role: '투숙객-잊혀진 신',
                 gender: '남성',
                 age: '?',
                 species: '죽음의 신',
                 appearance: '헤일로가 늘 녹아내린다. 떨어진 헤일로 방울은 시간이 지나면 사라진다. 등 뒤의 수많은 검은 팔들은 그림자로 이루어져 있다.',
-                personality: '말을 하지 못하고 수화나 글로 대화한다. 언제나 조용히 투숙객의 뒤를 지킨다.',
-                features: '벽이나 바닥의 그림자 속으로 이동할 수 있다. 물리적인 공격이 통하지 않음.',
-                tmi: '가끔 어린 투숙객들을 위해 그림자 놀이를 보여준다.',
-                profileImage: 'https://picsum.photos/id/1015/300/300',
+                personality: 'ESFJ+2w1 so/sp<br>햇살 같다. 다정하고 자애로운 성격.<br>사람을 평가하지 않고 있는 그대로 받아들인다. 죽음은 모두에게 공평하다.',
+                features: '기술의 발달로 죽음이란 개념이 사라진 차원의 잊혀진 죽음의 신. 뜨개질을 좋아한다.',
+                tmi: 'Hotel Epilogue에서 가장 디자인이 마음에 드는 캐입니다. 전투씬이 멋있게 나오는 편인데 항상 조금 어려보이게 뽑히더라고요. 그래서 못 쓴 게 많습니다.',
+                profileImage: 'E_cowboyshot.png',
                 fullBodyImage: 'https://picsum.photos/id/1015/600/900',
                 themeColor: '#000000',
-                quote: "..."
+                quote: "모두에게 안심을 줄 수 있는 사람이 되고 싶어요."
             }
         ];
 
@@ -547,7 +547,7 @@
                                             <i data-lucide="star" class="w-4 h-4" fill="currentColor"></i>
                                         </div>
                                         
-                                        <h3 class="text-center font-serif text-[#4a0404] italic text-2xl mb-8 opacity-80">- Keeper's Private Log -</h3>
+                                        <h3 class="text-center font-serif text-[#4a0404] italic text-2xl mb-8 opacity-80">- 제작자 여담 -</h3>
                                         
                                         <p class="font-serif text-2xl leading-relaxed text-[#2d0a0a]/90 text-center mb-10 italic">
                                             "${displayChar.tmi}"
